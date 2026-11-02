@@ -30,7 +30,7 @@ Populate exactly one 0402 selector link. The default 5 V assembly fits R7 and om
 | Y1 | 12 MHz, 10 pF load | Abracon ABM8-272-T3 | [Crystal](https://www.digikey.com/en/products/detail/abracon-llc/ABM8-272-T3/22472366) |
 | C22, C23 | 15 pF, C0G | Yageo CC0402JRNPO9BN150 | [MPN lookup](https://www.digikey.com/en/products?keywords=CC0402JRNPO9BN150) |
 
-Carrier buttons momentarily short BOOTSEL_N and RUN to GND. For USB recovery, hold BOOTSEL_N low, pulse RUN low, then release BOOTSEL_N after reset sampling. Route USB_DP and USB_DM to the carrier USB connector. SWCLK and SWDIO provide independent debug access. GPIO1 through GPIO47 are carrier-facing signal names. GPIO40 through GPIO47 also provide ADC0 through ADC7. Physical LGA pad numbers remain open.
+Carrier buttons momentarily short BOOTSEL_N and RUN to GND. For USB recovery, hold BOOTSEL_N low, pulse RUN low, then release BOOTSEL_N after reset sampling. Route USB_P and USB_N to the carrier USB connector. SWCLK and SWDIO provide independent debug access. GPIO1 through GPIO47 are carrier-facing signal names. GPIO40 through GPIO47 also provide ADC0 through ADC7. The [draft interface table](LGA-Pinout.md) lists the assigned pad numbers.
 
 Reference circuits: [RP2350B Minimal, Appendix B](https://datasheets.raspberrypi.com/rp2350/hardware-design-with-rp2350.pdf) and [Waveshare RP2350 board recovery circuit](https://files.waveshare.com/wiki/RP2350-Touch-LCD-1.28/RP2350-Touch-LCD-1.28.pdf).
 ## Ten-prototype budget (INR, 1 November 2026)
@@ -48,7 +48,7 @@ Ten populated sets of the current schematic, exact fit quantities, no attrition.
 | **Distributor-priced subtotal** | | **7,779.79** |
 | 0402 resistor and capacitor allowance (unquoted) | 70 R, 230 C | 400–800 |
 | **Estimated fitted parts** | | **8,180–8,580** |
-| JLCPCB bare-board planning allowance (unquoted, 30 × 15 mm, four-layer FR-4, ENIG, standard through vias) | 10 | 1,500–3,000 |
+| JLCPCB bare-board planning allowance (unquoted, provisional 20 × 20 mm, four-layer FR-4, ENIG, standard through vias) | 10 | 1,500–3,000 |
 | **Planning total, parts and bare PCBs** | | **9,680–11,580** |
 
 Passive quantities: 160 × 100 nF, 50 × 4.7 µF, 20 × 15 pF, 10 × 10 kΩ, 10 × 33 Ω, 20 × 1 kΩ and 20 × 27 Ω and 10 × 0 Ω. Spares, tax/import charges, freight from three vendors, stencil, placement and reflow are additional. Obtain a [JLCPCB fabrication quote](https://jlcpcb.com/quote) after layout confirms the stack-up, vias, panel and finish.
