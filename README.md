@@ -1,6 +1,6 @@
 # Specter
 
-Specter is a compact, solder-down system-on-module built around the Raspberry Pi RP2350B. It is designed for carrier boards that need the MCU, flash, PSRAM, clock, and core power supply in one assembly. Specter uses its own 64-contact perimeter LGA with a provisional 20 × 20 mm outline.
+Specter is a compact, solder-down system-on-module built around the Raspberry Pi RP2350B. It is designed for carrier boards that need the MCU, flash, PSRAM, clock, and core power supply in one assembly. Specter uses its own 64-contact perimeter LGA with a provisional 25 × 25 mm outline.
 
 ## Hardware
 

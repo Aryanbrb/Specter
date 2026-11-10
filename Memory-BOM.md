@@ -48,7 +48,7 @@ Ten populated sets of the current schematic, exact fit quantities, no attrition.
 | **Distributor-priced subtotal** | | **7,779.79** |
 | 0402 resistor and capacitor allowance (unquoted) | 70 R, 230 C | 400–800 |
 | **Estimated fitted parts** | | **8,180–8,580** |
-| JLCPCB bare-board planning allowance (unquoted, provisional 20 × 20 mm, four-layer FR-4, ENIG, standard through vias) | 10 | 1,500–3,000 |
+| JLCPCB bare-board planning allowance (unquoted, provisional 25 × 25 mm, four-layer FR-4, ENIG, standard through vias) | 10 | 1,500–3,000 |
 | **Planning total, parts and bare PCBs** | | **9,680–11,580** |
 
 Passive quantities: 160 × 100 nF, 50 × 4.7 µF, 20 × 15 pF, 10 × 10 kΩ, 10 × 33 Ω, 20 × 1 kΩ and 20 × 27 Ω and 10 × 0 Ω. Spares, tax/import charges, freight from three vendors, stencil, placement and reflow are additional. Obtain a [JLCPCB fabrication quote](https://jlcpcb.com/quote) after layout confirms the stack-up, vias, panel and finish.
