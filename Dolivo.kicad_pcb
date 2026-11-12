@@ -7,6 +7,7 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block (title "Dolivo RP2350B SoM"))
 	(layers
 		(0 "F.Cu" signal)
 		(4 "In1.Cu" power)
@@ -238,7 +239,7 @@
 			)
 		)
 		(path "/6f2a7f58-9210-4cab-9912-5da0fed7f669")
-		(sheetfile "RP2350 SoM.kicad_sch")
+		(sheetfile "Dolivo.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -401,7 +402,7 @@
 			)
 		)
 		(path "/30e79999-1d27-4c9b-9773-5d39458c1979")
-		(sheetfile "RP2350 SoM.kicad_sch")
+		(sheetfile "Dolivo.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -564,7 +565,7 @@
 			)
 		)
 		(path "/16fdaa5a-8320-4f62-81d9-2336af099e1c")
-		(sheetfile "RP2350 SoM.kicad_sch")
+		(sheetfile "Dolivo.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -727,7 +728,7 @@
 			)
 		)
 		(path "/40aa6c3b-ff0c-4920-b182-e1702a15fefe")
-		(sheetfile "RP2350 SoM.kicad_sch")
+		(sheetfile "Dolivo.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -902,7 +903,7 @@
 			)
 		)
 		(path "/cb7de8e5-23cc-400c-95a1-c463d00a4f6e")
-		(sheetfile "RP2350 SoM.kicad_sch")
+		(sheetfile "Dolivo.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1077,7 +1078,7 @@
 			)
 		)
 		(path "/1b9ac8f6-db9b-47c7-ab22-eab72d608bba")
-		(sheetfile "RP2350 SoM.kicad_sch")
+		(sheetfile "Dolivo.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1427,7 +1428,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "3d867061-4507-4e74-b6cf-8820d3552960")
-		(at 96.48 93.0675 180)
+		(at 96.53 93.1175 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C5"
@@ -1500,7 +1501,7 @@
 			)
 		)
 		(path "/e66880fe-1d67-4d4c-9640-27133f3e4ba3")
-		(sheetfile "RP2350 SoM.kicad_sch")
+		(sheetfile "Dolivo.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1649,7 +1650,7 @@
 			)
 		)
 		(path "/a872a48f-1f2f-4912-9e63-f1ba3afc5d46")
-		(sheetfile "RP2350 SoM.kicad_sch")
+		(sheetfile "Dolivo.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -1804,7 +1805,7 @@
 			)
 		)
 		(path "/a751b5aa-e72e-4df8-820b-91038dabc395")
-		(sheetfile "RP2350 SoM.kicad_sch")
+		(sheetfile "Dolivo.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1967,7 +1968,7 @@
 			)
 		)
 		(path "/90c6e074-1b94-4101-b87e-9c24fd770309")
-		(sheetfile "RP2350 SoM.kicad_sch")
+		(sheetfile "Dolivo.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2130,7 +2131,7 @@
 			)
 		)
 		(path "/28feee61-880e-4d31-b9f6-4ecabffe9024")
-		(sheetfile "RP2350 SoM.kicad_sch")
+		(sheetfile "Dolivo.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2293,7 +2294,7 @@
 			)
 		)
 		(path "/6e083050-865f-4960-86cb-5f47f5af1363")
-		(sheetfile "RP2350 SoM.kicad_sch")
+		(sheetfile "Dolivo.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2380,11 +2381,12 @@
 			)
 		)
 	)
-	(footprint "SoM:Specter_LGA64_Module"
+	(footprint "SoM:Dolivo_LGA64_Module"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "700c7c7b-9c05-4b8e-80b4-04915430affd")
 		(at 100.9 91.85)
-		(descr "Specter 26x16.7mm inset LGA64, paired rows at 1.5mm pitch, 0.8mm lands, interface draft A4; see LGA-Pinout.md")
+		(descr "Dolivo 26x16.7mm inset LGA64, paired rows at 1.5mm pitch, 0.8mm lands, interface draft A4; see LGA-Pinout.md")
 		(property "Reference" "J1"
 			(at 0 -9.35 0)
 			(layer "F.Fab")
@@ -2397,7 +2399,7 @@
 				)
 			)
 		)
-		(property "Value" "Specter_LGA64"
+		(property "Value" "Dolivo_LGA64"
 			(at 0 9.35 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2432,7 +2434,7 @@
 			)
 		)
 		(path "/4d1e4166-dce6-4970-9c1e-baaa17d53965")
-		(sheetfile "RP2350 SoM.kicad_sch")
+		(sheetfile "Dolivo.kicad_sch")
 		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -2443,6 +2445,7 @@
 				(type default)
 			)
 			(fill yes)
+			(locked yes)
 			(layer "F.SilkS")
 			(uuid "fa9f107b-1ff2-4c58-a941-39a08596ad4b")
 		)
@@ -2454,6 +2457,7 @@
 				(type default)
 			)
 			(fill no)
+			(locked yes)
 			(layer "F.Fab")
 			(uuid "f901fd32-f195-4770-ad2e-dc79c4780043")
 		)
@@ -3239,7 +3243,7 @@
 			)
 		)
 		(path "/5f2b107b-4b7c-4403-b364-088b098392ec")
-		(sheetfile "RP2350 SoM.kicad_sch")
+		(sheetfile "Dolivo.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3402,7 +3406,7 @@
 			)
 		)
 		(path "/428284fd-f396-4a80-9c94-4a01be920151")
-		(sheetfile "RP2350 SoM.kicad_sch")
+		(sheetfile "Dolivo.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3565,7 +3569,7 @@
 			)
 		)
 		(path "/26e8c2b1-039e-4a4c-9119-019f5468a66e")
-		(sheetfile "RP2350 SoM.kicad_sch")
+		(sheetfile "Dolivo.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3727,7 +3731,7 @@
 			)
 		)
 		(path "/e7bdafb9-12b5-4570-9f0a-dee947c5ef86")
-		(sheetfile "RP2350 SoM.kicad_sch")
+		(sheetfile "Dolivo.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3913,7 +3917,7 @@
 			)
 		)
 		(path "/9c2b2cd6-18ab-4655-a8d6-d9f0373b25bf")
-		(sheetfile "RP2350 SoM.kicad_sch")
+		(sheetfile "Dolivo.kicad_sch")
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4003,7 +4007,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "8a1c8dbd-0864-4738-a6c6-09b9e22748f2")
-		(at 96.48 90.88 180)
+		(at 96.53 90.93 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R4"
@@ -4076,7 +4080,7 @@
 			)
 		)
 		(path "/141207b4-e582-4a9d-8592-12906e870912")
-		(sheetfile "RP2350 SoM.kicad_sch")
+		(sheetfile "Dolivo.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4166,7 +4170,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "8d63053f-1604-41f1-9ffb-aa3e7915ee32")
-		(at 96.48 94.18 180)
+		(at 96.53 94.23 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C15"
@@ -4239,7 +4243,7 @@
 			)
 		)
 		(path "/12bd672a-f849-452d-8c8d-54331fd9ddc0")
-		(sheetfile "RP2350 SoM.kicad_sch")
+		(sheetfile "Dolivo.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4402,7 +4406,7 @@
 			)
 		)
 		(path "/6658b8b7-b7a3-4e67-9ff5-74033a8f2e50")
-		(sheetfile "RP2350 SoM.kicad_sch")
+		(sheetfile "Dolivo.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4565,7 +4569,7 @@
 			)
 		)
 		(path "/9aecd2dc-4809-4f4e-8e40-7e857af0b782")
-		(sheetfile "RP2350 SoM.kicad_sch")
+		(sheetfile "Dolivo.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4728,7 +4732,7 @@
 			)
 		)
 		(path "/45a2f2d9-ad01-495b-bb9f-71f8718fc342")
-		(sheetfile "RP2350 SoM.kicad_sch")
+		(sheetfile "Dolivo.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4891,7 +4895,7 @@
 			)
 		)
 		(path "/6176cd3a-798f-455c-b718-994f135904e2")
-		(sheetfile "RP2350 SoM.kicad_sch")
+		(sheetfile "Dolivo.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5054,7 +5058,7 @@
 			)
 		)
 		(path "/097b5183-5b16-4f3d-bbc1-90e792027dbe")
-		(sheetfile "RP2350 SoM.kicad_sch")
+		(sheetfile "Dolivo.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5229,7 +5233,7 @@
 			)
 		)
 		(path "/bf196880-ea9c-49db-bc3a-a49b6a059cc5")
-		(sheetfile "RP2350 SoM.kicad_sch")
+		(sheetfile "Dolivo.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5591,7 +5595,7 @@
 			)
 		)
 		(path "/c8961caf-90fd-48ad-879f-8b22f50c78f8")
-		(sheetfile "RP2350 SoM.kicad_sch")
+		(sheetfile "Dolivo.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5754,7 +5758,7 @@
 			)
 		)
 		(path "/ed93000a-02b9-4040-98f9-6360f7d703f1")
-		(sheetfile "RP2350 SoM.kicad_sch")
+		(sheetfile "Dolivo.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5844,7 +5848,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "c15e877a-02e0-4ca9-928a-8ae5a4f82332")
-		(at 96.48 89.78 180)
+		(at 96.53 89.83 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R5"
@@ -5917,7 +5921,7 @@
 			)
 		)
 		(path "/bfb7fe6d-d420-48ad-a856-4b2acd0bafdc")
-		(sheetfile "RP2350 SoM.kicad_sch")
+		(sheetfile "Dolivo.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6080,7 +6084,7 @@
 			)
 		)
 		(path "/17802b3b-2b8e-4d5c-b9d0-c84a6a44051d")
-		(sheetfile "RP2350 SoM.kicad_sch")
+		(sheetfile "Dolivo.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6243,7 +6247,7 @@
 			)
 		)
 		(path "/3ab05f24-7cf8-44e6-b2d5-fc32ea2bf1f5")
-		(sheetfile "RP2350 SoM.kicad_sch")
+		(sheetfile "Dolivo.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6577,7 +6581,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "ecbc4820-e1f4-4d58-9ca8-312602ccb313")
-		(at 96.48 91.98 180)
+		(at 96.53 92.03 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C17"
@@ -6650,7 +6654,7 @@
 			)
 		)
 		(path "/1c1edb39-c365-4ff1-8754-d706787e0bea")
-		(sheetfile "RP2350 SoM.kicad_sch")
+		(sheetfile "Dolivo.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6813,7 +6817,7 @@
 			)
 		)
 		(path "/a4a7a982-10f9-4df9-a859-e190218ce7cf")
-		(sheetfile "RP2350 SoM.kicad_sch")
+		(sheetfile "Dolivo.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6976,7 +6980,7 @@
 			)
 		)
 		(path "/a1598f02-467a-4a2b-8851-bc044e6cacaf")
-		(sheetfile "RP2350 SoM.kicad_sch")
+		(sheetfile "Dolivo.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7127,7 +7131,7 @@
 			)
 		)
 		(path "/1b4ef7b7-dcc9-4dfa-8822-f37319eb554f")
-		(sheetfile "RP2350 SoM.kicad_sch")
+		(sheetfile "Dolivo.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8408,7 +8412,7 @@
 			)
 		)
 		(path "/c1fad7a6-c6b6-488d-a8a5-c17c9014346a")
-		(sheetfile "RP2350 SoM.kicad_sch")
+		(sheetfile "Dolivo.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8571,7 +8575,7 @@
 			)
 		)
 		(path "/8d37f3e8-e62e-4acd-b220-a55bce2029af")
-		(sheetfile "RP2350 SoM.kicad_sch")
+		(sheetfile "Dolivo.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8734,7 +8738,7 @@
 			)
 		)
 		(path "/d65de06e-d21a-49a8-8d93-734b0eb38a93")
-		(sheetfile "RP2350 SoM.kicad_sch")
+		(sheetfile "Dolivo.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8829,6 +8833,7 @@
 			(type default)
 		)
 		(fill no)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "71531e5a-7b06-409e-a277-5a85fa02d618")
 	)

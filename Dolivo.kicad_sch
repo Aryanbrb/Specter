@@ -4,6 +4,7 @@
 	(generator_version "10.0")
 	(uuid "179844ce-9491-46c0-a089-42d4493763f7")
 	(paper "A2")
+	(title_block (title "Dolivo RP2350B SoM"))
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -3030,7 +3031,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Specter:Specter_LGA64"
+		(symbol "Dolivo:Dolivo_LGA64"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
@@ -3046,7 +3047,7 @@
 					)
 				)
 			)
-			(property "Value" "Specter_LGA64"
+			(property "Value" "Dolivo_LGA64"
 				(at 0 42.5 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3056,7 +3057,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SoM:Specter_LGA64_Module"
+			(property "Footprint" "SoM:Dolivo_LGA64_Module"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3089,7 +3090,7 @@
 					)
 				)
 			)
-			(symbol "Specter_LGA64_0_1"
+			(symbol "Dolivo_LGA64_0_1"
 				(rectangle
 					(start -17.78 40.64)
 					(end 17.78 -40.64)
@@ -3102,7 +3103,7 @@
 					)
 				)
 			)
-			(symbol "Specter_LGA64_1_1"
+			(symbol "Dolivo_LGA64_1_1"
 				(pin passive line
 					(at -22.86 39.37 0)
 					(length 5.08)
@@ -9414,7 +9415,7 @@
 			(uuid "033f13a0-eb93-4fa7-aa83-e1301ca44906")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "C23")
 					(unit 1)
@@ -9502,7 +9503,7 @@
 			(uuid "ef03fa47-41aa-4f73-b503-585f467c049d")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "C15")
 					(unit 1)
@@ -9590,7 +9591,7 @@
 			(uuid "5af8af91-07c5-4a9f-a418-7e3b4ffabc34")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "R4")
 					(unit 1)
@@ -9678,7 +9679,7 @@
 			(uuid "db80224e-f98d-4a3f-8532-7886ac4c036b")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "C11")
 					(unit 1)
@@ -9766,7 +9767,7 @@
 			(uuid "a0636db5-4d27-4f41-b486-18d8ff8f1008")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "C8")
 					(unit 1)
@@ -10107,7 +10108,7 @@
 			(uuid "19df85f0-fc40-4d7f-b7e9-920ed0fb3d1d")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "U1")
 					(unit 1)
@@ -10224,7 +10225,7 @@
 			(uuid "c92e309e-06ee-4a18-b7bc-edac23e515cb")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "U2")
 					(unit 1)
@@ -10312,7 +10313,7 @@
 			(uuid "30143655-4eaf-4231-bee3-e92d3edea02d")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "C17")
 					(unit 1)
@@ -10400,7 +10401,7 @@
 			(uuid "13230851-b39f-44e5-9498-ed1ef103efa6")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "C19")
 					(unit 1)
@@ -10488,7 +10489,7 @@
 			(uuid "a370c491-79c4-437d-963d-3bd16c5f37fc")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "C14")
 					(unit 1)
@@ -10576,7 +10577,7 @@
 			(uuid "a9f19570-ce08-4a5e-ac73-ccd3874b62fd")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "C3")
 					(unit 1)
@@ -10650,7 +10651,7 @@
 			(uuid "e327f4f1-3053-4432-9fd6-220249afb72e")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "#FLG04")
 					(unit 1)
@@ -10747,7 +10748,7 @@
 			(uuid "98b5a375-3d70-4df7-a6e2-656cbb7da5af")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "U4")
 					(unit 1)
@@ -10835,7 +10836,7 @@
 			(uuid "3a42c7cb-1f96-40ad-bcef-38ed65ebe9e1")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "C16")
 					(unit 1)
@@ -10923,7 +10924,7 @@
 			(uuid "5e731e03-d263-4fb3-8a58-826632bd9e79")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "C12")
 					(unit 1)
@@ -11011,7 +11012,7 @@
 			(uuid "00803434-a581-41b2-8b79-61101f7aba98")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "R6")
 					(unit 1)
@@ -11020,7 +11021,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Specter:Specter_LGA64")
+		(lib_id "Dolivo:Dolivo_LGA64")
 		(at 467.38 308.42 0)
 		(unit 1)
 		(body_style 1)
@@ -11040,7 +11041,7 @@
 				)
 			)
 		)
-		(property "Value" "Specter_LGA64"
+		(property "Value" "Dolivo_LGA64"
 			(at 467.38 265.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11050,7 +11051,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SoM:Specter_LGA64_Module"
+		(property "Footprint" "SoM:Dolivo_LGA64_Module"
 			(at 467.38 308.42 0)
 			(hide yes)
 			(show_name no)
@@ -11274,7 +11275,7 @@
 			(uuid "ed22cba0-be0f-40b9-a388-f521eed0b570")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "J1")
 					(unit 1)
@@ -11352,7 +11353,7 @@
 			(uuid "8e8a9159-bfb7-40ff-942e-734520fe00ee")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "#PWR01")
 					(unit 1)
@@ -11440,7 +11441,7 @@
 			(uuid "9b26b786-ea36-4c1b-8d8b-0ef2021cfc2d")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "C6")
 					(unit 1)
@@ -11528,7 +11529,7 @@
 			(uuid "fd7603df-762d-45e6-a38c-52442d0da0f7")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "C10")
 					(unit 1)
@@ -11616,7 +11617,7 @@
 			(uuid "4bc326c4-14de-4c1e-8624-8e315a815eb6")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "C9")
 					(unit 1)
@@ -11704,7 +11705,7 @@
 			(uuid "58687130-6e5e-4ff1-8c85-cf56844ea299")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "C20")
 					(unit 1)
@@ -11803,7 +11804,7 @@
 			(uuid "55e1f8f1-6eb5-4ac7-942e-95f4a0eac4e9")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "C2")
 					(unit 1)
@@ -11877,7 +11878,7 @@
 			(uuid "5eae41d5-9a58-42ba-bf82-26d85291ded6")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "#FLG02")
 					(unit 1)
@@ -11965,7 +11966,7 @@
 			(uuid "d684ca4e-2d35-4276-a551-d04f0eedf053")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "C18")
 					(unit 1)
@@ -12053,7 +12054,7 @@
 			(uuid "d57e912f-87c9-468d-b6a3-bb4c465d1087")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "R3")
 					(unit 1)
@@ -12141,7 +12142,7 @@
 			(uuid "a769a0c2-5149-4d27-bd50-6e5254561e00")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "C7")
 					(unit 1)
@@ -12229,7 +12230,7 @@
 			(uuid "f94bff33-2306-4c44-b3af-24f643db574e")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "R8")
 					(unit 1)
@@ -12317,7 +12318,7 @@
 			(uuid "3ab9af5e-0c19-4943-a826-bc6a6c504ae9")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "R7")
 					(unit 1)
@@ -12405,7 +12406,7 @@
 			(uuid "c003099a-7107-42e4-9052-34e8807fb2aa")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "C21")
 					(unit 1)
@@ -12504,7 +12505,7 @@
 			(uuid "bcb980b7-c3ca-440b-b02d-a58dbffa5901")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "C1")
 					(unit 1)
@@ -12592,7 +12593,7 @@
 			(uuid "3c64a85d-c4c4-4d82-91c5-b6c357905e35")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "L1")
 					(unit 1)
@@ -12709,7 +12710,7 @@
 			(uuid "b839552f-e596-45ca-979a-b08525da7846")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "U3")
 					(unit 1)
@@ -12797,7 +12798,7 @@
 			(uuid "bc567de4-ba3d-421c-8a10-85ffcb2ca24a")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "R5")
 					(unit 1)
@@ -12885,7 +12886,7 @@
 			(uuid "07dd792a-5419-43bf-ada6-1336ff768d19")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "C13")
 					(unit 1)
@@ -12959,7 +12960,7 @@
 			(uuid "8c29d653-5ba1-4a05-aab3-0906107a582e")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "#FLG01")
 					(unit 1)
@@ -13047,7 +13048,7 @@
 			(uuid "1889f2ee-74ab-430c-9ad4-449dd1b8d4c8")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "C4")
 					(unit 1)
@@ -13146,7 +13147,7 @@
 			(uuid "fba3b805-9ea8-41f0-93d0-f3c7cfb733cb")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "R1")
 					(unit 1)
@@ -13234,7 +13235,7 @@
 			(uuid "80f91c71-d281-451c-8fad-9aac6d6b7814")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "R2")
 					(unit 1)
@@ -13322,7 +13323,7 @@
 			(uuid "281b6def-f93b-4cc6-b2c1-61c848fb4737")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "C5")
 					(unit 1)
@@ -13416,7 +13417,7 @@
 			(uuid "539c849e-ad54-4251-b758-331cafdf1e4d")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "Y1")
 					(unit 1)
@@ -13490,7 +13491,7 @@
 			(uuid "af40b4c2-d12f-417b-9fd9-8af1c29cf42b")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "#FLG03")
 					(unit 1)
@@ -13578,7 +13579,7 @@
 			(uuid "1810b746-1b80-4b48-aa2c-c137166de9ec")
 		)
 		(instances
-			(project "RP2350 SoM"
+			(project "Dolivo"
 				(path "/179844ce-9491-46c0-a089-42d4493763f7"
 					(reference "C22")
 					(unit 1)

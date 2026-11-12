@@ -1,4 +1,4 @@
-# Specter LGA64 · Interface draft A4
+# Dolivo LGA64 · Interface draft A4
 
 The module outline is **26 × 16.7 mm** (434.2 mm²), an **8.8% area reduction** from the 28 × 17 mm A3 outline. This revision preserves the current positions, rotations, land patterns and nets of all 37 fitted/optional components. Only the board outline and underside interface geometry change. The earlier A3, A2 and 25 × 25 mm carrier footprints are mechanically incompatible with A4.
 
@@ -6,11 +6,13 @@ The 64 contacts sit in **four inset, two-row groups** underneath the component f
 
 The central underside is left without LGA lands to allow ground stitching and routing, including beneath the MCU exposed pad. LGA copper is at least 1.2 mm inside the board edge. The project retains its **0.508 mm / 20 mil minimum copper-to-edge rule**; the closest existing component copper is R7 at 0.5175 mm from the north edge. The west and east limits are set by R3 and Y1. U2's south courtyard and silkscreen limit further height reduction. A smaller rectangle would require moving components or reducing these margins.
 
-Coordinates below use the new module centre as origin, looking through the module from the component side. Positive X points right and positive Y points down. Both footprints use this same top-view frame; the physical underside view is mirrored. Place the module interface footprint unflipped: copper is already on B.Cu, mask on B.Mask, and there are no module paste openings. The carrier footprint uses F.Cu/F.Mask/F.Paste, with provisional 1:1 paste apertures. For carrier schematics use the library symbol, override its footprint to SoM:Specter_LGA64_Carrier and enable its BOM entry. F.Fab shows the 26 × 16.7 mm outline; the carrier courtyard adds 0.25 mm per side. J1's PCB origin is now (100.9, 91.85) mm; component coordinates have not moved.
+Coordinates below use the new module centre as origin, looking through the module from the component side. Positive X points right and positive Y points down. Both footprints use this same top-view frame; the physical underside view is mirrored. Place the module interface footprint unflipped: copper is already on B.Cu, mask on B.Mask, and there are no module paste openings. The carrier footprint uses F.Cu/F.Mask/F.Paste, with provisional 1:1 paste apertures. For carrier schematics use the library symbol, override its footprint to SoM:Dolivo_LGA64_Carrier and enable its BOM entry. F.Fab shows the 26 × 16.7 mm outline; the carrier courtyard adds 0.25 mm per side. J1's PCB origin is now (100.9, 91.85) mm; component coordinates have not moved.
 
 GPIO and control signals use the module's 3.3 V I/O domain. GPIO40–47 double as ADC0–7. GPIO0 selects onboard PSRAM. Connect all nine grounds. Populate only R7 for the 5 V build or only R8 for the regulated 3.3 V build. RUN and BOOTSEL_N are active low. USB_N and USB_P remain adjacent lands and retain their differential-pair names.
 
 Power, BOOTSEL, USB and GPIO1–3 use the west group; GPIO4–20 the south group; GPIO21–32, SWD and RUN the east group; GPIO33–47 the north group. The schematic and its wiring are unchanged.
+
+J1, its 64 board pads and its outline graphics are locked in the PCB editor. The Edge.Cuts board outline is also locked. Unlock deliberately in item properties before making mechanical changes.
 
 ## Routing and assembly status
 
@@ -20,7 +22,7 @@ Plan ordinary dog-bone escapes into the spaces between lands. Reserve their dril
 
 The inset joints need an assembly and inspection plan, including stencil thickness, solder volume, module flatness, reflow and X-ray access. The south flash is close to the outline, so plan routed panel rails/tabs clear of components; do not assume V-scoring. Fabrication clearances alone do not qualify assembly yield. Routing, carrier stencil and assembly validation are still required before ordering.
 
-Reference principles: [NXP LGA assembly guidelines, AN2265](https://www.nxp.com/docs/en/application-note/AN2265.pdf) discuss depopulated arrays, land/mask design, via solder wicking and inspection. [JLCPCB capabilities](https://jlcpcb.com/capabilities/pcb-capabilities) provide the fabrication and via-process limits. The specific A4 land dimensions are a provisional Specter design choice, not a footprint endorsed by those sources.
+Reference principles: [NXP LGA assembly guidelines, AN2265](https://www.nxp.com/docs/en/application-note/AN2265.pdf) discuss depopulated arrays, land/mask design, via solder wicking and inspection. [JLCPCB capabilities](https://jlcpcb.com/capabilities/pcb-capabilities) provide the fabrication and via-process limits. The specific A4 land dimensions are a provisional Dolivo design choice, not a footprint endorsed by those sources.
 
 ## Pad coordinates
 

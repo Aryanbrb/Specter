@@ -14,7 +14,7 @@ The archive's MIT licence and disclaimer are preserved in
 [LICENSE-Raspberry-Pi.txt](LICENSE-Raspberry-Pi.txt).
 
 Both models use millimetres, unit scale and zero offset. U1 uses zero additional
-rotation. L1 uses 180 degrees around Z because Specter's pad 1 is VREG_LX and
+rotation. L1 uses 180 degrees around Z because Dolivo's pad 1 is VREG_LX and
 pad 2 is VCORE, opposite the terminal numbering in Raspberry Pi's reference
 footprint. The model and silkscreen dot indicate the VCORE end, matching the
 reference's electrical orientation. The model geometry itself is unchanged.

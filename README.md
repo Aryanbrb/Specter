@@ -1,6 +1,6 @@
-# Specter
+# Dolivo
 
-Specter is a compact, solder-down system-on-module built around the Raspberry Pi RP2350B. It is designed for carrier boards that need the MCU, flash, PSRAM, clock, and core power supply in one assembly. Specter uses its own 64-contact inset LGA with a provisional 26 × 16.7 mm outline.
+Dolivo is a compact, solder-down system-on-module built around the Raspberry Pi RP2350B. It is designed for carrier boards that need the MCU, flash, PSRAM, clock, and core power supply in one assembly. Dolivo uses its own 64-contact inset LGA with a provisional 26 × 16.7 mm outline.
 
 ## Hardware
 
@@ -15,7 +15,7 @@ The schematic and prototype BOM are in development. The A4 interface symbol and 
 
 ## Project files
 
-Open [the KiCad project](RP2350%20SoM.kicad_pro) in KiCad 10 to inspect the [schematic](RP2350%20SoM.kicad_sch). Keep the project footprint table and [local footprint library](SoM.pretty/) together so KiCad can resolve the core regulator inductor.
+Open [the KiCad project](Dolivo.kicad_pro) in KiCad 10 to inspect the [schematic](Dolivo.kicad_sch). Keep the project footprint table and [local footprint library](SoM.pretty/) together so KiCad can resolve the core regulator inductor.
 
 The [BOM and prototype budget](Memory-BOM.md) document component selections, assembly options, and estimated costs for ten modules.
 
@@ -23,4 +23,4 @@ Keep the [project 3D models](3dmodels/README.md) alongside the PCB for the RP235
 
 ## Open hardware
 
-Specter is preparing its first hardware revision for OSHWA certification. The original hardware is licensed under CERN-OHL-W-2.0 and the original documentation under CC BY 4.0. See the [licensing scope and third-party notices](LICENSING.md) and the [Rev A release checklist](OPEN-HARDWARE.md). Certification is pending a completed release and application.
+Dolivo is preparing its first hardware revision for OSHWA certification. The original hardware is licensed under CERN-OHL-W-2.0 and the original documentation under CC BY 4.0. See the [licensing scope and third-party notices](LICENSING.md) and the [Rev A release checklist](OPEN-HARDWARE.md). Certification is pending a completed release and application.
