@@ -21,6 +21,8 @@ Populate exactly one 0402 selector link. The default 5 V assembly fits R7 and om
 |---|---|---|---|
 | U4 | 3.3 V LDO | Diodes AP2112K-3.3TRG1 | [Cut tape](https://www.digikey.com/en/products/detail/diodes-incorporated/AP2112K-3-3TRG1/4470746) |
 | L1 | 3.3 µH shielded | Abracon AOTA-B201610S3R3-101-T | [Cut tape](https://www.digikey.com/en/products/detail/abracon-llc/AOTA-B201610S3R3-101-T/25621527) |
+
+L1 retains Abracon's recommended land pattern: two 1.0 × 1.6 mm pads, 2.0 mm centre spacing and a 1.0 mm gap, as shown on page 4 of the [manufacturer drawing](https://abracon.com/datasheets/AOTA-B201610S3R3-101-T.pdf). The smaller Raspberry Pi reference pads were reviewed but not adopted, to retain the manufacturer's assembly margins. Specter numbers pad 1 as VREG_LX and pad 2 as VCORE. The silkscreen dot and 3D model mark the VCORE end, matching the electrical orientation in Raspberry Pi's RP2350B Minimal R4-S1 reference (which numbers the terminals oppositely). Verify the physical dot against this assembly marking; do not infer orientation from the generic schematic inductor symbol. The surrounding regulator loop still needs routing and hardware validation.
 | C3–C7 | 4.7 µF, 10 V, X5R | Murata GRM155R61A475MEAAD | [MPN lookup](https://www.digikey.com/en/products?keywords=GRM155R61A475MEAAD) |
 | C8–C21 | 100 nF | Same as C1 and C2 | CC0402KRX7R7BB104 |
 | R2 | 33 Ω | Yageo RC0402FR-0733RL | [MPN lookup](https://www.digikey.com/en/products?keywords=RC0402FR-0733RL) |
@@ -48,7 +50,7 @@ Ten populated sets of the current schematic, exact fit quantities, no attrition.
 | **Distributor-priced subtotal** | | **7,779.79** |
 | 0402 resistor and capacitor allowance (unquoted) | 70 R, 230 C | 400–800 |
 | **Estimated fitted parts** | | **8,180–8,580** |
-| JLCPCB bare-board planning allowance (unquoted, provisional 25 × 25 mm, four-layer FR-4, ENIG, standard through vias) | 10 | 1,500–3,000 |
+| JLCPCB bare-board planning allowance (unquoted, provisional 26 × 16.7 mm, four-layer FR-4, ENIG, standard through vias) | 10 | 1,500–3,000 |
 | **Planning total, parts and bare PCBs** | | **9,680–11,580** |
 
 Passive quantities: 160 × 100 nF, 50 × 4.7 µF, 20 × 15 pF, 10 × 10 kΩ, 10 × 33 Ω, 20 × 1 kΩ and 20 × 27 Ω and 10 × 0 Ω. Spares, tax/import charges, freight from three vendors, stencil, placement and reflow are additional. Obtain a [JLCPCB fabrication quote](https://jlcpcb.com/quote) after layout confirms the stack-up, vias, panel and finish.

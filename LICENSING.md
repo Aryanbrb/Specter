@@ -8,6 +8,7 @@ Specter's original explanatory material, including the README, release checklist
 
 ## Third-party material
 
+- The two STEP models in [3dmodels](3dmodels/README.md) come from Raspberry Pi's RP2350B Minimal reference design and retain its [MIT licence and disclaimer](3dmodels/LICENSE-Raspberry-Pi.txt).
 - KiCad library data embedded in the design retains the [KiCad library licence and design exception](https://www.kicad.org/libraries/license/). Review separately distributed library items for upstream notices.
 - The RP2350B, flash, PSRAM and other purchased parts are third-party components. Specter's hardware grant covers the module design the contributors control. Supplier datasheets, marks and underlying chip designs remain with their respective owners.
 - No Specter firmware is included in this revision. Identify the software licence, dependencies and build instructions when introducing firmware.

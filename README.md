@@ -1,6 +1,6 @@
 # Specter
 
-Specter is a compact, solder-down system-on-module built around the Raspberry Pi RP2350B. It is designed for carrier boards that need the MCU, flash, PSRAM, clock, and core power supply in one assembly. Specter uses its own 64-contact perimeter LGA with a provisional 25 × 25 mm outline.
+Specter is a compact, solder-down system-on-module built around the Raspberry Pi RP2350B. It is designed for carrier boards that need the MCU, flash, PSRAM, clock, and core power supply in one assembly. Specter uses its own 64-contact inset LGA with a provisional 26 × 16.7 mm outline.
 
 ## Hardware
 
@@ -11,13 +11,15 @@ Specter is a compact, solder-down system-on-module built around the Raspberry Pi
 
 ## Design status
 
-The schematic and prototype BOM are in development. The interface symbol and mating footprints are available for placement trials. Routing, assembly and hardware verification are pending.
+The schematic and prototype BOM are in development. The A4 interface symbol and mating footprints are available for placement trials. The underside contacts use four inset, two-row groups with 0.8 mm square lands at 1.5 mm pitch. The new outline reduces board area by 8.8% while retaining all component placements; earlier carrier footprints must be replaced with A4. Routing, assembly and hardware verification are pending.
 
 ## Project files
 
 Open [the KiCad project](RP2350%20SoM.kicad_pro) in KiCad 10 to inspect the [schematic](RP2350%20SoM.kicad_sch). Keep the project footprint table and [local footprint library](SoM.pretty/) together so KiCad can resolve the core regulator inductor.
 
 The [BOM and prototype budget](Memory-BOM.md) document component selections, assembly options, and estimated costs for ten modules.
+
+Keep the [project 3D models](3dmodels/README.md) alongside the PCB for the RP2350B and inductor. Install KiCad 10's standard 3D model libraries for the remaining components.
 
 ## Open hardware
 
